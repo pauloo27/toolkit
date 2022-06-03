@@ -3,11 +3,11 @@ package toolkit_test
 import (
 	"testing"
 
-	"github.com/Pauloo27/toolkit"
+	k "github.com/Pauloo27/toolkit"
 	"github.com/stretchr/testify/assert"
 )
 
-func TestConditional(t *testing.T) {
-	assert.Equal(t, toolkit.Conditional(true, "hello", "bye"), "hello")
-	assert.Equal(t, toolkit.Conditional(false, "hello", "bye"), "bye")
+func TestIs(t *testing.T) {
+	assert.Equal(t, k.Is(true, "hello", "bye"), "hello")
+	assert.Equal(t, k.Is(false, "hello", "bye"), "bye")
 }
