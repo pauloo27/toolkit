@@ -63,8 +63,6 @@ func TestFindIndex(t *testing.T) {
 	}))
 }
 
-// func Some[T any](slice []T, predicate funcs.Predicate[T]) bool {
-
 func TestSome(t *testing.T) {
 	slc := []int{1, 5, 3, 4, 2}
 
@@ -109,7 +107,6 @@ func TestMap(t *testing.T) {
 	}))
 }
 
-// func ForEach[T any](slice []T, consumer funcs.Consumer[T]) {
 func TestForEach(t *testing.T) {
 	slc := []int{1, 5, 3, 4, 2}
 
