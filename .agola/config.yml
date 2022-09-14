@@ -1,0 +1,16 @@
+version: v0
+
+runs:
+  - name: Test Toolkit
+    tasks:
+      - name: test
+        runtime:
+          type: pod
+          arch: amd64
+          containers:
+            - image: golang:1.18-stretch
+        steps:
+          - clone:
+          - run:
+              name: make test
+              command: make test
