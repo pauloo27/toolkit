@@ -1,6 +1,6 @@
 package slices
 
-import "github.com/Pauloo27/toolkit/funcs"
+import "github.com/pauloo27/toolkit/funcs"
 
 // Find returns a pointer to the first element in the slice where the predicate
 // is true. If no element is found, it returns nil.

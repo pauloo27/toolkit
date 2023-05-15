@@ -1,4 +1,4 @@
-module github.com/Pauloo27/toolkit
+module github.com/pauloo27/toolkit
 
 go 1.18
 

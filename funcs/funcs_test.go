@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Pauloo27/toolkit/funcs"
+	"github.com/pauloo27/toolkit/funcs"
 )
 
 func TestFunction(t *testing.T) {

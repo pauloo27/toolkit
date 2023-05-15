@@ -3,7 +3,7 @@ package events_test
 import (
 	"testing"
 
-	"github.com/Pauloo27/toolkit/events"
+	"github.com/pauloo27/toolkit/events"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package toolkit_test
 import (
 	"testing"
 
-	k "github.com/Pauloo27/toolkit"
+	k "github.com/pauloo27/toolkit"
 	"github.com/stretchr/testify/assert"
 )
 
